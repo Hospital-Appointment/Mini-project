@@ -12,8 +12,13 @@ import MyAppointments from "./pages/MyAppointments";
 import Appointment from "./pages/Appointment";
 import Navbar from "./components/Navbar";
 import Footer from './components/Footer';
+
+import './App.css'
+
+
 function App() {
   return (
+
     <div className="mx-4 sm:mx-[10%]">
       <Navbar />
       <Routes>
@@ -32,6 +37,10 @@ function App() {
 
     </div>
   );
+
+    
+ 
+
 }
 
 export default App;
